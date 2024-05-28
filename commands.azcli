@@ -1,3 +1,11 @@
 dotnet workload update
 dotnet workload install aspire
 dotnet workload list
+
+dotnet new aspire-starter
+
+
+dotnet dev-certs https --check
+dotnet dev-certs https --trust
+
+dotnet sln list 

@@ -4,6 +4,9 @@ dotnet workload list
 
 dotnet new aspire-starter
 
+#MAC sudo perms needed
+sudo dotnet workload update
+sudo dotnet workload install aspire
 
 dotnet dev-certs https --check
 dotnet dev-certs https --trust
